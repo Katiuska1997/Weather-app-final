@@ -1,0 +1,171 @@
+body {
+    font-family: arial, sans-serif;
+    background-image: url("https://funart.pro/uploads/posts/2021-04/1617481464_16-p-oboi-voskhod-na-more-16.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    font-weight: 1000;
+  }
+  
+  h1 {
+    color: #111010;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 20px;
+  
+  }
+  
+  ul {
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+   
+  }
+  
+  li {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    
+    color: rgb(15, 4, 4);
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 19px;
+  }
+  
+  li:first-letter {
+    text-transform: capitalize;
+  }
+   
+  #city-input{
+    width: 250px;
+  padding: 5px;
+  font-size: 25px;
+  margin-top: 20px;
+  
+  margin-left: 200px;
+  border-radius: 30px;
+  text-align: center;
+  border: none;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  color: rgb(226, 95, 8);
+  }
+  #search-button{
+    padding: 10px 22px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: rgb(54, 53, 53, 0.158);
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  transition: all 0.15s ease-in-out;
+  display: block;
+  margin: 20px -200px;
+  text-align: center;
+  }
+  #city {
+    padding: 10px 12px;
+    margin: 10px 50px;
+    font-size: 35px;
+    font-weight: 1000;
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to top, #292f38 0%, #e44c05 100%);
+  }
+  #search-button:hover {
+    background-color: rgb(168, 48, 11);
+    box-shadow: 2px 2px 6px rgba(54, 53, 53, 0.158);
+    color: black;}
+  .weather-app-wrapper {
+    background-image: url("https://99px.ru/sstorage/53/2018/12/tmb_244118_177315.jpg");
+    width: 1000px;
+    height: 700px;
+    margin: 30px auto;
+    opacity: 0.6;
+  }
+  
+  .weather-app {
+    padding: 20px;
+     
+    border-radius: 5px;
+  }
+   
+   .overview {
+    text-align: center;
+  }
+   
+  .weather-temperature img {
+    margin-right: 15px;
+    margin-left: 45px;
+    height: 64px;
+    width: 64px;
+  }
+   
+  .weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+     
+  }
+  
+  .weather-temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+  }
+  
+  .weather-temperature .active {
+    color: rgb(33, 33, 33);
+    cursor: default;
+  }
+  
+  .weather-temperature .active:hover {
+    text-decoration: none;
+  }
+  
+  .weather-forecast {
+    height: 150px;
+   
+    text-align: center;
+    color: white;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    background: linear-gradient(to top, #0c3272 0%, #791c9e 100%);
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  .weather-forecast:hover {
+    background: linear-gradient(to top, #dd4f23 0%, #e1e4e4 100%);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    color: black;
+  }
+  .weather-forecast-date {
+   margin-top: 15px;
+    font-size: 26px;
+    opacity: 0.7;
+    
+  }
+  
+  .weather-forecast-temperature-min {
+    font-size: 26px;
+   
+    
+  }
+  
+  .weather-forecast-temperatures {
+    font-size: 26px;
+     
+  }
+  footer{
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(14, 7, 7);
+    font-size: 20px;
+    background-color: #e1e4e4;
+  }
+    
