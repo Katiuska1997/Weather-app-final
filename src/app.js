@@ -30,6 +30,7 @@ function formatDay(timestamp) {
   return days[day];
 }
 
+
 function displayForecast(response) {
   let forecast = response.data.daily;
 
@@ -115,3 +116,22 @@ let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
 search("New York");
+
+function convertToFahrenheit(event) {
+  event.preventDefault();
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = 66;
+}
+
+function convertToCelsius(event) {
+  event.preventDefault();
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = 19;
+}
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+  fahrenheitLink.addEventListener("click", convertToFahrenheit);
+  
+  let celsiusLink = document.querySelector("#celsius-link");
+    celsiusLink.addEventListener("click", convertToCelsius);
+ 
